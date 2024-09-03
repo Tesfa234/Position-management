@@ -1,0 +1,159 @@
+{
+    "employees": [
+      {
+        "name": "tesfalem ",
+        "description": "qwertyuiop",
+        "position": "HR",
+        "parentPosition": "CEO",
+        "id": "bf5a"
+      },
+      {
+        "name": "hanats",
+        "description": "mesfinhcnasduaedadiaikbsf12345",
+        "position": "new1",
+        "parentPosition": "HR",
+        "id": "d5c7"
+      },
+      {
+        "id": "5e9f",
+        "name": "tsion",
+        "description": "marketing manager isolation",
+        "position": "CEO",
+        "parentPosition": ""
+      }
+    ],
+    "positions": [
+      {
+        "id": "75a0",
+        "position": "CEO",
+        "parentPosition": null,
+        "parentPositionId": ""
+      },
+      {
+        "id": "b685",
+        "position": "CTO",
+        "parentPosition": "CEO",
+        "parentPositionId": "75a0"
+      },
+      {
+        "id": "5e32",
+        "position": "Project Manager",
+        "parentPosition": "CTO",
+        "parentPositionId": "b685"
+      },
+      {
+        "id": "fc52",
+        "position": "Project Owner",
+        "parentPosition": "Project Manager",
+        "parentPositionId": "5e32"
+      },
+      {
+        "id": "5de7",
+        "position": "Tech Lead",
+        "parentPosition": "Project Owner",
+        "parentPositionId": "fc52"
+      },
+      {
+        "id": "f210",
+        "position": "Frontend Developer",
+        "parentPosition": "Tech Lead",
+        "parentPositionId": "5de7"
+      },
+      {
+        "id": "3dd3",
+        "position": "Backend Developer",
+        "parentPosition": "Tech Lead",
+        "parentPositionId": "5de7"
+      },
+      {
+        "id": "54dd",
+        "position": "DevOps",
+        "parentPosition": "Tech Lead",
+        "parentPositionId": "5de7"
+      },
+      {
+        "id": "e1f1",
+        "position": "QA Engineer",
+        "parentPosition": "Project Owner",
+        "parentPositionId": "fc52"
+      },
+      {
+        "id": "3022",
+        "position": "Scrum Master",
+        "parentPosition": "Project Owner",
+        "parentPositionId": "fc52"
+      },
+      {
+        "id": "8b4c",
+        "position": "CFO",
+        "parentPosition": "CEO",
+        "parentPositionId": "75a0"
+      },
+      {
+        "id": "42c7",
+        "position": "Chef Accountant",
+        "parentPosition": "CFO",
+        "parentPositionId": "8b4c"
+      },
+      {
+        "id": "4c00",
+        "position": "Financial Analyst",
+        "parentPosition": "Chef Accountant",
+        "parentPositionId": "42c7"
+      },
+      {
+        "id": "1b1e",
+        "position": "Account and Payable",
+        "parentPosition": "Chef Accountant",
+        "parentPositionId": "42c7"
+      },
+      {
+        "id": "a7f3",
+        "position": "Internal Audit",
+        "parentPosition": "CFO",
+        "parentPositionId": "8b4c"
+      },
+      {
+        "id": "6b24",
+        "position": "COO",
+        "parentPosition": "CEO",
+        "parentPositionId": "75a0"
+      },
+      {
+        "id": "ff93",
+        "position": "Product Manager",
+        "parentPosition": "COO",
+        "parentPositionId": "6b24"
+      },
+      {
+        "id": "1c2a",
+        "position": "Operation Manager",
+        "parentPosition": "COO",
+        "parentPositionId": "6b24"
+      },
+      {
+        "id": "47b4",
+        "position": "Customer Relation",
+        "parentPosition": "COO",
+        "parentPositionId": "6b24"
+      },
+      {
+        "position": "HR",
+        "parentPosition": "CEO",
+        "parentPositionId": "75a0",
+        "id": "e927"
+      },
+      {
+        "id": "5d8c",
+        "position": "new position",
+        "parentPosition": "HR",
+        "parentPositionId": "e927"
+      },
+      {
+        "position": "new2333",
+        "parentPosition": "COO",
+        "parentPositionId": "6b24",
+        "id": "46aa"
+      }
+    ]
+  }
